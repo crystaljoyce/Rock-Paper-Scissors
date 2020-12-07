@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.btn {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fc5185;
+}
+
+section {
+  display: flex;
+}
+
+.display {
+  width: 50vw;
+  height: 30vh;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.scissors {
+  background-image: url("https://www.ikea.com/us/en/images/products/sy-scissors__0112301_PE263788_S5.JPG?f=xs");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+}
+
+.rock {
+  background-image: url("https://wwfoldschool.com/wp-content/uploads/2017/03/The-Rock.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.paper {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/L5yYddefx8cxniPHB9ii7h-1024-80.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#score {
+  color: #364f6b;
+  font-size: 21px;
+  padding: 10px;
+}
+    
+    .btn {
+      padding: 10px;
+      border-bottom: 1px solid black;
+      display: flexbox; 
+    }
+    
+    .btn:hover {
+      cursor: pointer;
+      background-color: #fc5185;
+    }
+    
+    section {
+      display: flex;
+    }
+    
+    .display {
+      width: 50vw;
+      height: 30vh;
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+    
+    .scissors {
+      background-image: url("https://www.ikea.com/us/en/images/products/sy-scissors__0112301_PE263788_S5.JPG?f=xs");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: center;
+    }
+    
+    .rock {
+      background-image: url("https://wwfoldschool.com/wp-content/uploads/2017/03/The-Rock.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+    
+    .paper {
+      background-image: url("https://cdn.mos.cms.futurecdn.net/L5yYddefx8cxniPHB9ii7h-1024-80.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+    
+    #score {
+      color: #364f6b;
+      font-size: 21px;
+      padding: 10px;
+    }
+    
+  
